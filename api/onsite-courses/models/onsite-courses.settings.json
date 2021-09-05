@@ -1,0 +1,72 @@
+{
+  "kind": "collectionType",
+  "collectionName": "courses",
+  "info": {
+    "name": "courses",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
+    },
+    "beginnerClassesDayOfTheWeek": {
+      "type": "string"
+    },
+    "intermediateClassesDayOfTheWeek": {
+      "type": "string"
+    },
+    "advancedClassesDayOfTheWeek": {
+      "type": "string"
+    },
+    "subTitle": {
+      "type": "string",
+      "required": true
+    },
+    "location": {
+      "type": "enumeration",
+      "enum": [
+        "Nigeria",
+        "Canterbury"
+      ]
+    },
+    "courseType": {
+      "type": "enumeration",
+      "enum": [
+        "Online",
+        "Onsite"
+      ]
+    },
+    "whatYouLearn": {
+      "type": "richtext"
+    },
+    "materialsNeeded": {
+      "type": "richtext"
+    },
+    "hasClassStage": {
+      "type": "boolean"
+    },
+    "classesDayOfTheWeek": {
+      "type": "string"
+    },
+    "paymentInformation": {
+      "type": "richtext"
+    },
+    "startTime": {
+      "type": "string"
+    },
+    "endTime": {
+      "type": "string"
+    }
+  }
+}

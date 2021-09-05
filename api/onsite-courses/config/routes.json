@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/onsite-courses",
+      "handler": "onsite-courses.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/onsite-courses/count",
+      "handler": "onsite-courses.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/onsite-courses/:id",
+      "handler": "onsite-courses.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/onsite-courses",
+      "handler": "onsite-courses.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/onsite-courses/:id",
+      "handler": "onsite-courses.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/onsite-courses/:id",
+      "handler": "onsite-courses.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
