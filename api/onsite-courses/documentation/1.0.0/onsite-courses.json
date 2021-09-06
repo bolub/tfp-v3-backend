@@ -591,6 +591,9 @@
           "endTime": {
             "type": "string"
           },
+          "PaymentOptions": {
+            "type": "object"
+          },
           "published_at": {
             "type": "string",
             "format": "date-time"
@@ -656,6 +659,9 @@
           },
           "endTime": {
             "type": "string"
+          },
+          "PaymentOptions": {
+            "type": "object"
           },
           "published_at": {
             "type": "string",

@@ -67,6 +67,9 @@
     },
     "endTime": {
       "type": "string"
+    },
+    "PaymentOptions": {
+      "type": "json"
     }
   }
 }
