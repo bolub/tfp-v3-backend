@@ -25,8 +25,8 @@ module.exports = ({ env }) => ({
       apiKey: process.env.SENDGRID_API_KEY,
     },
     settings: {
-      defaultFrom: "Tolumitfpuk@gmail.com",
-      defaultReplyTo: "Tolumitfpuk@gmail.com",
+      defaultFrom: "courses@tolumitfp.fashion",
+      defaultReplyTo: "courses@tolumitfp.fashion",
     },
   },
   // ...
