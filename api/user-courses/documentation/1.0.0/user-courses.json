@@ -543,7 +543,8 @@
               "id",
               "title",
               "description",
-              "subTitle"
+              "subTitle",
+              "courseLength"
             ],
             "properties": {
               "id": {
@@ -604,6 +605,13 @@
               },
               "PaymentOptions": {
                 "type": "object"
+              },
+              "courseLength": {
+                "type": "string",
+                "enum": [
+                  "long",
+                  "short"
+                ]
               },
               "published_at": {
                 "type": "string"

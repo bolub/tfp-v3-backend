@@ -70,6 +70,15 @@
     },
     "PaymentOptions": {
       "type": "json"
+    },
+    "courseLength": {
+      "type": "enumeration",
+      "enum": [
+        "long",
+        "short"
+      ],
+      "default": "long",
+      "required": true
     }
   }
 }

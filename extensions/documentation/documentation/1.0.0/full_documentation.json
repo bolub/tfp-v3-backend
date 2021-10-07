@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "09/07/2021 10:06:36 AM"
+    "x-generation-date": "10/04/2021 7:59:52 AM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -3327,7 +3327,8 @@
           "id",
           "title",
           "description",
-          "subTitle"
+          "subTitle",
+          "courseLength"
         ],
         "properties": {
           "id": {
@@ -3389,6 +3390,14 @@
           "PaymentOptions": {
             "type": "object"
           },
+          "courseLength": {
+            "type": "string",
+            "default": "long",
+            "enum": [
+              "long",
+              "short"
+            ]
+          },
           "published_at": {
             "type": "string",
             "format": "date-time"
@@ -3399,7 +3408,8 @@
         "required": [
           "title",
           "description",
-          "subTitle"
+          "subTitle",
+          "courseLength"
         ],
         "properties": {
           "title": {
@@ -3457,6 +3467,14 @@
           },
           "PaymentOptions": {
             "type": "object"
+          },
+          "courseLength": {
+            "type": "string",
+            "default": "long",
+            "enum": [
+              "long",
+              "short"
+            ]
           },
           "published_at": {
             "type": "string",
@@ -3486,7 +3504,8 @@
               "id",
               "title",
               "description",
-              "subTitle"
+              "subTitle",
+              "courseLength"
             ],
             "properties": {
               "id": {
@@ -3547,6 +3566,13 @@
               },
               "PaymentOptions": {
                 "type": "object"
+              },
+              "courseLength": {
+                "type": "string",
+                "enum": [
+                  "long",
+                  "short"
+                ]
               },
               "published_at": {
                 "type": "string"
