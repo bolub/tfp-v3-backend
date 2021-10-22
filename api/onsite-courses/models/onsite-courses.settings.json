@@ -79,6 +79,9 @@
       ],
       "default": "long",
       "required": true
+    },
+    "imageUrl": {
+      "type": "string"
     }
   }
 }
