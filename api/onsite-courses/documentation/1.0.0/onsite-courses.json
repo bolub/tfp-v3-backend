@@ -533,6 +533,9 @@
           "title",
           "description",
           "subTitle",
+          "location",
+          "courseType",
+          "PaymentOptions",
           "courseLength",
           "region"
         ],
@@ -626,6 +629,9 @@
           "title",
           "description",
           "subTitle",
+          "location",
+          "courseType",
+          "PaymentOptions",
           "courseLength",
           "region"
         ],

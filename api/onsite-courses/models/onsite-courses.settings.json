@@ -38,14 +38,16 @@
       "enum": [
         "Nigeria",
         "Canterbury"
-      ]
+      ],
+      "required": true
     },
     "courseType": {
       "type": "enumeration",
       "enum": [
         "Online",
         "Onsite"
-      ]
+      ],
+      "required": true
     },
     "whatYouLearn": {
       "type": "richtext"
@@ -69,7 +71,8 @@
       "type": "string"
     },
     "PaymentOptions": {
-      "type": "json"
+      "type": "json",
+      "required": true
     },
     "courseLength": {
       "type": "enumeration",

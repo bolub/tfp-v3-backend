@@ -544,6 +544,9 @@
               "title",
               "description",
               "subTitle",
+              "location",
+              "courseType",
+              "PaymentOptions",
               "courseLength",
               "region"
             ],
