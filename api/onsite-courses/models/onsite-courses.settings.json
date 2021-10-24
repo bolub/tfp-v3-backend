@@ -37,7 +37,8 @@
       "type": "enumeration",
       "enum": [
         "Nigeria",
-        "Canterbury"
+        "Canterbury",
+        "Online"
       ],
       "required": true
     },
@@ -91,7 +92,8 @@
       "enum": [
         "Abuja",
         "Ibadan",
-        "Canterbury"
+        "Canterbury",
+        "Online"
       ],
       "required": true
     }

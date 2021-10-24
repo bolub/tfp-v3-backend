@@ -565,7 +565,8 @@
             "type": "string",
             "enum": [
               "Nigeria",
-              "Canterbury"
+              "Canterbury",
+              "Online"
             ]
           },
           "courseType": {
@@ -615,7 +616,8 @@
             "enum": [
               "Abuja",
               "Ibadan",
-              "Canterbury"
+              "Canterbury",
+              "Online"
             ]
           },
           "published_at": {
@@ -658,7 +660,8 @@
             "type": "string",
             "enum": [
               "Nigeria",
-              "Canterbury"
+              "Canterbury",
+              "Online"
             ]
           },
           "courseType": {
@@ -708,7 +711,8 @@
             "enum": [
               "Abuja",
               "Ibadan",
-              "Canterbury"
+              "Canterbury",
+              "Online"
             ]
           },
           "published_at": {

@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "10/24/2021 8:45:05 AM"
+    "x-generation-date": "10/24/2021 1:02:34 PM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -3360,7 +3360,8 @@
             "type": "string",
             "enum": [
               "Nigeria",
-              "Canterbury"
+              "Canterbury",
+              "Online"
             ]
           },
           "courseType": {
@@ -3410,7 +3411,8 @@
             "enum": [
               "Abuja",
               "Ibadan",
-              "Canterbury"
+              "Canterbury",
+              "Online"
             ]
           },
           "published_at": {
@@ -3453,7 +3455,8 @@
             "type": "string",
             "enum": [
               "Nigeria",
-              "Canterbury"
+              "Canterbury",
+              "Online"
             ]
           },
           "courseType": {
@@ -3503,7 +3506,8 @@
             "enum": [
               "Abuja",
               "Ibadan",
-              "Canterbury"
+              "Canterbury",
+              "Online"
             ]
           },
           "published_at": {
@@ -3567,7 +3571,8 @@
                 "type": "string",
                 "enum": [
                   "Nigeria",
-                  "Canterbury"
+                  "Canterbury",
+                  "Online"
                 ]
               },
               "courseType": {
@@ -3616,7 +3621,8 @@
                 "enum": [
                   "Abuja",
                   "Ibadan",
-                  "Canterbury"
+                  "Canterbury",
+                  "Online"
                 ]
               },
               "published_at": {
