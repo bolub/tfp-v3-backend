@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "10/22/2021 11:34:03 AM"
+    "x-generation-date": "10/24/2021 8:30:59 AM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -3328,7 +3328,8 @@
           "title",
           "description",
           "subTitle",
-          "courseLength"
+          "courseLength",
+          "region"
         ],
         "properties": {
           "id": {
@@ -3401,6 +3402,14 @@
           "imageUrl": {
             "type": "string"
           },
+          "region": {
+            "type": "string",
+            "enum": [
+              "Abuja",
+              "Ibadan",
+              "Canterbury"
+            ]
+          },
           "published_at": {
             "type": "string",
             "format": "date-time"
@@ -3412,7 +3421,8 @@
           "title",
           "description",
           "subTitle",
-          "courseLength"
+          "courseLength",
+          "region"
         ],
         "properties": {
           "title": {
@@ -3481,6 +3491,14 @@
           },
           "imageUrl": {
             "type": "string"
+          },
+          "region": {
+            "type": "string",
+            "enum": [
+              "Abuja",
+              "Ibadan",
+              "Canterbury"
+            ]
           },
           "published_at": {
             "type": "string",
@@ -3511,7 +3529,8 @@
               "title",
               "description",
               "subTitle",
-              "courseLength"
+              "courseLength",
+              "region"
             ],
             "properties": {
               "id": {
@@ -3582,6 +3601,14 @@
               },
               "imageUrl": {
                 "type": "string"
+              },
+              "region": {
+                "type": "string",
+                "enum": [
+                  "Abuja",
+                  "Ibadan",
+                  "Canterbury"
+                ]
               },
               "published_at": {
                 "type": "string"

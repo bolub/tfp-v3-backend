@@ -82,6 +82,15 @@
     },
     "imageUrl": {
       "type": "string"
+    },
+    "region": {
+      "type": "enumeration",
+      "enum": [
+        "Abuja",
+        "Ibadan",
+        "Canterbury"
+      ],
+      "required": true
     }
   }
 }

@@ -533,7 +533,8 @@
           "title",
           "description",
           "subTitle",
-          "courseLength"
+          "courseLength",
+          "region"
         ],
         "properties": {
           "id": {
@@ -606,6 +607,14 @@
           "imageUrl": {
             "type": "string"
           },
+          "region": {
+            "type": "string",
+            "enum": [
+              "Abuja",
+              "Ibadan",
+              "Canterbury"
+            ]
+          },
           "published_at": {
             "type": "string",
             "format": "date-time"
@@ -617,7 +626,8 @@
           "title",
           "description",
           "subTitle",
-          "courseLength"
+          "courseLength",
+          "region"
         ],
         "properties": {
           "title": {
@@ -686,6 +696,14 @@
           },
           "imageUrl": {
             "type": "string"
+          },
+          "region": {
+            "type": "string",
+            "enum": [
+              "Abuja",
+              "Ibadan",
+              "Canterbury"
+            ]
           },
           "published_at": {
             "type": "string",
