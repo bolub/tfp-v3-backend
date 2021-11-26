@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "discounts",
+  "info": {
+    "name": "discount",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "percentage": {
+      "type": "integer",
+      "required": true
+    },
+    "code": {
+      "type": "string",
+      "required": true
+    },
+    "status": {
+      "type": "boolean",
+      "required": true,
+      "default": false
+    },
+    "courseType": {
+      "type": "enumeration",
+      "enum": [
+        "online",
+        "onsite",
+        "all"
+      ],
+      "required": true,
+      "default": "all"
+    },
+    "courseId": {
+      "type": "string"
+    }
+  }
+}
